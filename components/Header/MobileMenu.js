@@ -35,7 +35,7 @@ const MobileMenu = () => {
               </div>
             </div>
             <p className="description">
-              Histudy is a education website template. You can customize all.
+              Sikho Kamana is a educational site . you can learn course from here.
             </p>
             <ul className="navbar-top-left rbt-information-list justify-content-start">
               <li>
@@ -45,7 +45,7 @@ const MobileMenu = () => {
               </li>
               <li>
                 <Link href="#">
-                  <i className="feather-phone"></i>(302) 555-0107
+                  <i className="feather-phone"></i>(302) 8687787578
                 </Link>
               </li>
             </ul>

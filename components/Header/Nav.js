@@ -23,91 +23,24 @@ const Nav = () => {
       <ul className="mainmenu">
         <li className="with-megamenu has-menu-child-item position-static">
           <Link
-            className={`${activeMenuItem === "home" ? "open" : ""}`}
-            onClick={() => toggleMenuItem("home")}
+            // className={`${activeMenuItem === "home" ? "open" : ""}`}
+            // onClick={() => toggleMenuItem("home")}
             href="#"
           >
             Home
-            <i className="feather-chevron-down"></i>
           </Link>
-          <div
-            className={`rbt-megamenu menu-skin-dark ${
-              activeMenuItem === "home" ? "active d-block" : ""
-            }`}
-          >
-            <div className="wrapper">
-              <div className="row row--15 home-plesentation-wrapper single-dropdown-menu-presentation">
-                {MenuData &&
-                  MenuData.menuData.map((data, index) => {
-                    if (data.menuType === "home") {
-                      const elements = data.menuItems?.map(
-                        (value, innerIndex) => (
-                          <div
-                            className="col-lg-12 col-xl-2 col-xxl-2 col-md-12 col-sm-12 col-12 single-mega-item"
-                            key={innerIndex}
-                          >
-                            <div className="demo-single">
-                              <div
-                                className={`inner ${
-                                  value.badget ? "disable" : ""
-                                }`}
-                              >
-                                <div className="thumbnail">
-                                  <Link href={value.link} className="relative">
-                                    <Image
-                                      src={value.img}
-                                      width={454}
-                                      height={332}
-                                      alt="Demo Images"
-                                    />
-                                    {value.badget ? (
-                                      <span className="rbt-badge-card rbt-badge-card__coming">
-                                        Coming
-                                      </span>
-                                    ) : (
-                                      ""
-                                    )}
-                                  </Link>
-                                </div>
-                                <div className="content">
-                                  <h4 className="title">
-                                    <Link href={value.link}>
-                                      {value.title}
-                                      {value.badget ? (
-                                        <span className="rbt-badge-card ms-3 d-lg-none">
-                                          Coming
-                                        </span>
-                                      ) : (
-                                        ""
-                                      )}
-                                      <span className="btn-icon">
-                                        <i className="feather-arrow-right"></i>
-                                      </span>
-                                    </Link>
-                                  </h4>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        )
-                      );
-                      return elements;
-                    }
-                    return null;
-                  })}
-              </div>
-            </div>
-          </div>
+        
+            
         </li>
 
         <li className="with-megamenu has-menu-child-item">
           <Link
             className={`${activeMenuItem === "courses" ? "open" : ""}`}
-            href="#"
-            onClick={() => toggleMenuItem("courses")}
+            href="/#courses"
+            // onClick={() => toggleMenuItem("courses")}
           >
             Courses
-            <i className="feather-chevron-down"></i>
+            {/* <i className="feather-chevron-down"></i> */}
           </Link>
 
           <div
@@ -115,7 +48,7 @@ const Nav = () => {
               activeMenuItem === "courses" ? "active d-block" : ""
             }`}
           >
-            <div className="wrapper">
+            {/* <div className="wrapper">
               {MenuData &&
                 MenuData.menuData.map((data, index) => {
                   if (data.menuType === "grid-item-2") {
@@ -176,7 +109,7 @@ const Nav = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </li>
         <li className="has-dropdown has-menu-child-item">
@@ -185,10 +118,10 @@ const Nav = () => {
             href="#"
             onClick={() => toggleMenuItem("dashboard")}
           >
-            Dashboard
-            <i className="feather-chevron-down"></i>
+            About us
+            {/* <i className="feather-chevron-down"></i> */}
           </Link>
-          <ul
+          {/* <ul
             className={`submenu ${
               activeMenuItem === "dashboard" ? "active d-block" : ""
             }`}
@@ -216,9 +149,20 @@ const Nav = () => {
                 }
                 return null;
               })}
-          </ul>
+          </ul> */}
         </li>
         <li className="with-megamenu has-menu-child-item position-static">
+          <Link
+            // className={`${activeMenuItem === "home" ? "open" : ""}`}
+            // onClick={() => toggleMenuItem("home")}
+            href="#"
+          >
+            Teach with us
+          </Link>
+        
+            
+        </li>
+        {/* <li className="with-megamenu has-menu-child-item position-static">
           <Link
             href="#"
             className={`${activeMenuItem === "pages" ? "open" : ""}`}
@@ -450,7 +394,7 @@ const Nav = () => {
               </div>
             </div>
           </div>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

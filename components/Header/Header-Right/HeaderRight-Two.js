@@ -40,9 +40,9 @@ const HeaderRightTwo = ({ btnClass, btnText, userType }) => {
         <li className="account-access rbt-user-wrapper d-none d-xl-block">
           <Link href="#">
             <i className="feather-user"></i>
-            {userType}
+            User
           </Link>
-          <User />
+          {/* <User /> */}
         </li>
 
         <li className="access-icon rbt-user-wrapper d-block d-xl-none">

@@ -109,14 +109,14 @@ const Cart = () => {
                 <p className="subtotal">
                   <strong>Subtotal:</strong>
                 </p>
-                <p className="price">${total_amount}</p>
+                <p className="price">₹{total_amount}</p>
               </div>
               <hr className="mb--0" />
               <div className="rbt-minicart-bottom mt--20">
                 <div className="view-cart-btn">
                   <Link
                     className="rbt-btn btn-border icon-hover w-100 text-center"
-                    href="/cart"
+                    href="/"
                   >
                     <span className="btn-text">View Cart</span>
                     <span className="btn-icon">
@@ -127,7 +127,8 @@ const Cart = () => {
                 <div className="checkout-btn mt--20">
                   <Link
                     className="rbt-btn btn-gradient icon-hover w-100 text-center"
-                    href="/checkout"
+                    // href="/checko
+                    href="/ "
                   >
                     <span className="btn-text">Checkout</span>
                     <span className="btn-icon">

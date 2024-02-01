@@ -13,7 +13,7 @@ const CounterFive = () => {
 
   return (
     <div className="container">
-      {CounterData &&
+      {
         CounterData.counterFive.map((data, index) => (
           <div className="row g-5" key={index}>
             {data.body.map((item, innerIndex) => (
@@ -33,8 +33,7 @@ const CounterFive = () => {
                           />
                         </span>
                       </h3>
-                      <span className="subtitle">{data.text}</span>
-                    </div>
+                      <span className="subtitle">{item.text}</span>                    </div>
                   </div>
                 </div>
               </div>

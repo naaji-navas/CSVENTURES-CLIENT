@@ -49,7 +49,7 @@ const Marketplace = () => {
           <div className="row g-5 align-items-end mb--60">
             <div className="col-lg-6 col-md-12 col-12">
               <div className="section-title text-start">
-                <h2 className="title">Our Highest Rated Workshops</h2>
+                <h2 id="courses" className="title">Our Highest Rated Workshops</h2>
                 <p className="description mt--20">
                 Our workshops are an excellent way for you to learn the most in-demand skills from industry experts.
                 </p>
@@ -59,7 +59,9 @@ const Marketplace = () => {
               <div className="load-more-btn text-start text-lg-end">
                 <Link
                   className="rbt-btn btn-border icon-hover radius-round"
-                  href="/course-filter-one-toggle"
+                  // href="/course-filter-one-toggle"
+                  href="#"
+
                 >
                   <span className="btn-text">Browse Sikho Kamana Courses</span>
                   <span className="btn-icon">
@@ -98,7 +100,7 @@ const Marketplace = () => {
         </div>
       </div>
 
-      <div className="rbt-rbt-blog-area rbt-section-gapTop bg-gradient-8 rbt-round-bottom-shape">
+      {/* <div className="rbt-rbt-blog-area rbt-section-gapTop bg-gradient-8 rbt-round-bottom-shape">
         <div className="wrapper pb--50 rbt-index-upper">
           <div className="container">
             <div className="row g-5 align-items-end mb--60">
@@ -116,7 +118,9 @@ const Marketplace = () => {
                 <div className="load-more-btn text-start text-lg-end">
                   <Link
                     className="rbt-btn btn-border icon-hover radius-round color-white-off"
-                    href="/blog-list"
+                    // href="/blog-list"
+                    href="#"
+
                   >
                     <span className="btn-text">See All Articles</span>
                     <span className="btn-icon">
@@ -129,7 +133,7 @@ const Marketplace = () => {
             <BlogGridMinimal start={0} end={3} isPagination={false} />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="rbt-newsletter-area bg-color-white rbt-section-gapBottom pt--60">
         <div className="container">

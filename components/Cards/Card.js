@@ -76,7 +76,11 @@ const Card = ({ start, end, col, mt, isDesc, isUser}) => {
                 {isUser ? (
                   <div className="rbt-author-meta mb--10">
                     <div className="rbt-avater">
-                      <Link href={`/profile/${data.id}`}>
+                      <Link 
+                      // href={`/profile/${data.id}`}
+                      href="#"
+
+                      >
                         <Image
                           src={data.userImg}
                           width={33}
@@ -88,6 +92,7 @@ const Card = ({ start, end, col, mt, isDesc, isUser}) => {
                     <div className="rbt-author-info">
                       By{" "}
                       {/* <Link href={`/profile/${data.id}`}>{data.userName}</Link>{" "} */}
+                      <Link href="#">{data.userName}</Link>{" "}
                       In <Link href="#">{data.userCategory}</Link>
                     </div>
                   </div>
@@ -102,14 +107,17 @@ const Card = ({ start, end, col, mt, isDesc, isUser}) => {
                   {data.button ? (
                     <Link
                       className="rbt-btn-link left-icon"
-                      href={`/course-details/${data.id}`}
+                      href="#"
+                      // href={`/course-details/${data.id}`}
                     >
                       <i className="feather-shopping-cart"></i> Add To Cart
                     </Link>
                   ) : (
                     <Link
                       className="rbt-btn-link"
-                      href={`/course-details/${data.id}`}
+                      href="#"
+
+                      // href={`/course-details/${data.id}`}
                     >
                       Learn More<i className="feather-arrow-right"></i>
                     </Link>

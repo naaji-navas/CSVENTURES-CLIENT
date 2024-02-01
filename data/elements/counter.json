@@ -186,23 +186,23 @@
     {
       "body": [
         {
-          "text": "Learners & counting",
+          "text": "Learners upskilled",
           "num": 500,
           "img": "/images/icons/counter-01.png"
         },
         {
-          "text": "Courses & Video",
-          "num": 800,
+          "text": "Expert Mentors",
+          "num": 20,
           "img": "/images/icons/counter-02.png"
         },
         {
-          "text": "Certified Students",
-          "num": 1000,
+          "text": "Batches Conducted",
+          "num": 450,
           "img": "/images/icons/counter-03.png"
         },
         {
-          "text": "Certified Students",
-          "num": 100,
+          "text": "Workshops Offered",
+          "num": 20,
           "img": "/images/icons/counter-04.png"
         }
       ]
