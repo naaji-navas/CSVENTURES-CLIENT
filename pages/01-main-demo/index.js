@@ -14,7 +14,7 @@ import Marketplace from "@/components/12-Marketplace/12-Marketplace";
 const Home = () => {
   return (
     <>
-      <PageHead title="Home - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Sikho Kamana Courses" />
 
       <Provider store={Store}>
         <Context>
