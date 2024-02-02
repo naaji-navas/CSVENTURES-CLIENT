@@ -60,14 +60,14 @@ const HeaderTopMidThree = ({ flexDirection }) => {
                     <Link href="#">
                       <i className="feather-user"></i>Admin
                     </Link>
-                    <User />
+                    {/* <User /> */}
                   </li>
 
                   <li className="access-icon rbt-user-wrapper right-align-dropdown d-block d-xl-none">
                     <Link className="rbt-round-btn" href="#">
                       <i className="feather-user"></i>
                     </Link>
-                    <User />
+                    {/* <User /> */}
                   </li>
                 </ul>
               </div>

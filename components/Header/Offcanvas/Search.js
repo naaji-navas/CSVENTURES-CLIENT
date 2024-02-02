@@ -31,7 +31,7 @@ const Search = () => {
           <div className="row g-4 pt--30 pb--60">
             <div className="col-lg-12">
               <div className="section-title">
-                <h5 className="rbt-title-style-2">Our Top Course</h5>
+                <h5 className="rbt-title-style-2">Browse Sikho Kamana Courses</h5>
               </div>
             </div>
 
@@ -39,7 +39,8 @@ const Search = () => {
               <div className="col-lg-3 col-md-4 col-sm-6 col-12" key={index}>
                 <div className="rbt-card variation-01 rbt-hover">
                   <div className="rbt-card-img">
-                    <a href={`/course-details/${data.id}`}>
+                    {/* <a href={`/course-details/${data.id}`}> */}
+                    <a href="#">
                       <Image
                         src={data.courseImg}
                         width={186}
@@ -50,7 +51,8 @@ const Search = () => {
                   </div>
                   <div className="rbt-card-body">
                     <h5 className="rbt-card-title">
-                      <a href={`/course-details/${data.id}`}>
+                      {/* <a href={`/course-details/${data.id}`}> */}
+                      <a href="#">
                         {data.courseTitle}
                       </a>
                     </h5>
@@ -69,8 +71,8 @@ const Search = () => {
                     </div>
                     <div className="rbt-card-bottom">
                       <div className="rbt-price">
-                        <span className="current-price">$15</span>
-                        <span className="off-price">$25</span>
+                        <span className="current-price">₹199</span>
+                        <span className="off-price">₹3000</span>
                       </div>
                     </div>
                   </div>

@@ -45,7 +45,7 @@ const MobileMenu = () => {
               </li>
               <li>
                 <Link href="#">
-                  <i className="feather-phone"></i>(302) 8687787578
+                  <i className="feather-phone"></i>7616272626
                 </Link>
               </li>
             </ul>

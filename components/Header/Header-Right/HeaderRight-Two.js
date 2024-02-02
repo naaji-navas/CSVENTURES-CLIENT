@@ -49,7 +49,7 @@ const HeaderRightTwo = ({ btnClass, btnText, userType }) => {
           <Link className="rbt-round-btn" href="#">
             <i className="feather-user"></i>
           </Link>
-          <User />
+          {/* <User /> */}
         </li>
       </ul>
 

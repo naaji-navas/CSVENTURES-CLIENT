@@ -63,7 +63,7 @@ const HeaderFour = ({ gapSpaceBetween, sticky, navigationEnd, container }) => {
                   <Link className="rbt-round-btn" href="#">
                     <i className="feather-user"></i>
                   </Link>
-                  <User />
+                  {/* <User /> */}
                 </li>
                 <li
                   className="access-icon rbt-mini-cart"

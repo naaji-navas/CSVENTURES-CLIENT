@@ -2,9 +2,9 @@
   "footerOne": [
     {
       "description": " We’re always in search for talented and motivated people.Don’t be shy introduce yourself!",
-      "phone": "(406) 555-0120",
-      "mail": "rainbow@example.com",
-      "address": "North America, USA",
+      "phone": "76383678978",
+      "mail": "mail@example.com",
+      "address": "India",
       "usefulLinks": [
         {
           "text": "Marketplace",
@@ -24,29 +24,34 @@
         },
         {
           "text": "FAQ",
-          "link": "/pages/faqs"
+          "link": "#"
         }
       ],
       "ourCompany": [
         {
           "text": "Contact Us",
-          "link": "/contact"
+          "link": "#"
+
         },
         {
           "text": "Become Teacher",
-          "link": "/become-a-teacher"
+          "link": "#"
+
         },
         {
           "text": "Blog",
-          "link": "/blog-list"
+          "link": "#"
+
         },
         {
           "text": "Instructor",
-          "link": "/elements/team"
+          "link": "#"
+
         },
         {
           "text": "Events",
-          "link": "/pages/event-list"
+          "link": "#"
+
         }
       ],
       "socialLink": [
