@@ -15,6 +15,7 @@ import CourseFilterOneToggle from "@/components/Category/Filter/CourseFilterOneT
 
 import CourseDetails from "../../../data/course-details/courseData.json";
 import BackToTop from "@/pages/backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const Page = () => {
   const router = useRouter();
@@ -56,7 +57,7 @@ const Page = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

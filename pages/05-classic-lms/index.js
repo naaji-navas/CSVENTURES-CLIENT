@@ -11,6 +11,7 @@ import BackToTop from "../backToTop";
 import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
 import ClassicLms from "@/components/05-classic-lms/05-ClassicLms";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const ClassicLmsLayout = () => {
   return (
@@ -26,7 +27,7 @@ const ClassicLmsLayout = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

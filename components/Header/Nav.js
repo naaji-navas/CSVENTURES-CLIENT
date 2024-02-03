@@ -113,13 +113,10 @@ const Nav = () => {
           </div>
         </li>
         <li className="has-dropdown has-menu-child-item">
-          <Link
-            className={`${activeMenuItem === "dashboard" ? "open" : ""}`}
-            href="#"
-            onClick={() => toggleMenuItem("dashboard")}
-          >
+          <Link href="/pages/about-us-01">
             About us
-            {/* <i className="feather-chevron-down"></i> */}
+             
+            
           </Link>
           {/* <ul
             className={`submenu ${

@@ -15,6 +15,7 @@ import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
 
 import CourseDetails from "../../../data/course-details/courseData.json";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const Page = () => {
   const router = useRouter();
@@ -55,7 +56,7 @@ const Page = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

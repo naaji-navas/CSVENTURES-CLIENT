@@ -5,7 +5,7 @@ import Store from "@/redux/store";
 import { Provider } from "react-redux";
 
 import Separator from "@/components/Common/Separator";
-import FooterOne from "@/components/Footer/Footer-One";
+import FooterThree from "@/components/Footer/Footer-Three";
 import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import NotFound from "@/components/NotFound/NotFound";
 
@@ -19,7 +19,7 @@ const ErrorPage = () => {
         <NotFound />
 
         <Separator />
-        <FooterOne />
+        <FooterThree />
       </Context>
     </Provider>
   );
