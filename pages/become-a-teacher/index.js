@@ -12,6 +12,7 @@ import TeacherGallery from "@/components/Become-a-Teacher/TeacherGallery";
 import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
 import BackToTop from "../backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const TeacherPage = () => {
   return (
@@ -35,7 +36,7 @@ const TeacherPage = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

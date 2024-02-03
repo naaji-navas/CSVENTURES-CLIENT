@@ -13,6 +13,7 @@ import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
 import CourseFilterOneOpen from "@/components/Category/Filter/CourseFilterOneOpen";
 import PageHead from "@/pages/Head";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const Page = () => {
   const router = useRouter();
@@ -53,7 +54,7 @@ const Page = () => {
           </div>
 
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

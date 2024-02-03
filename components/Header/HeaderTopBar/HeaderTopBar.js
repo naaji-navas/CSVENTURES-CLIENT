@@ -4,7 +4,7 @@ import Link from "next/link";
 import emoji from "../../../public/images/icons/hand-emojji.svg";
 import { useAppContext } from "@/context/Context";
 
-const HeaderTopBar = () => {
+const   HeaderTopBar = () => {
   const { toggle, setToggle } = useAppContext();
   return (
     <>

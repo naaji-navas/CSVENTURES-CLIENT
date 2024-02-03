@@ -56,22 +56,7 @@ const About = () => {
                 </div>
               ))}
 
-              <div className="about-btn mt--40">
-                <Link
-                  className="rbt-btn btn-gradient hover-icon-reverse"
-                  href="#"
-                >
-                  <span className="icon-reverse-wrapper">
-                    <span className="btn-text">More About Us</span>
-                    <span className="btn-icon">
-                      <i className="feather-arrow-right"></i>
-                    </span>
-                    <span className="btn-icon">
-                      <i className="feather-arrow-right"></i>
-                    </span>
-                  </span>
-                </Link>
-              </div>
+            
             </div>
           </div>
         </div>

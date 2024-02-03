@@ -9,6 +9,7 @@ import Cart from "@/components/Header/Offcanvas/Cart";
 import FooterOne from "@/components/Footer/Footer-One";
 import BackToTop from "../backToTop";
 import HeaderStyleEight from "@/components/Header/HeaderStyle-Eight";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
           <Cart />
 
           <BackToTop />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

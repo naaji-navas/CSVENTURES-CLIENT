@@ -25,10 +25,10 @@ const UdemyAffiliateBanner = ({ CourseData }) => {
                     <div className="course-thumbnail">
                       <Link href={`/course-details/${data.id}`}>
                         <Image
-                          className="radius-6"
+                           className="radius-6"
                           src={data.courseImg}
                           width={623}
-                          height={398}
+                              height={398}
                           priority
                           alt="Course Images"
                         />
