@@ -83,8 +83,8 @@ const Viedo = ({ checkMatchCourses }) => {
       <div className="content-item-content">
         <div className="rbt-price-wrapper d-flex flex-wrap align-items-center justify-content-between">
           <div className="rbt-price">
-            <span className="current-price">${checkMatchCourses.price}</span>
-            <span className="off-price">${checkMatchCourses.offPrice}</span>
+            <span className="current-price">₹{checkMatchCourses.price}</span>
+            <span className="off-price">₹{checkMatchCourses.offPrice}</span>
           </div>
           <div className="discount-time">
             <span className="rbt-badge color-danger bg-color-danger-opacity">
@@ -178,7 +178,7 @@ const Viedo = ({ checkMatchCourses }) => {
             <p className="rbt-badge-2 mt--10 justify-content-center w-100">
               <i className="feather-phone mr--5"></i> Call Us:{" "}
               <Link href="#">
-                <strong>+444 555 666 777</strong>
+                <strong>8657933489</strong>
               </Link>
             </p>
           </div>

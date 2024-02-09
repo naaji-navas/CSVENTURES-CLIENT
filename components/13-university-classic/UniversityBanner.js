@@ -46,13 +46,13 @@ const UniversityBanner = () => {
                       <div className="inner text-center">
                         <div className="section-title">
                           <span className="subtitle bg-white-opacity d-inline-block">
-                            BASED ON THE BEST HISTUDY
+                            BASED ON THE BEST Sikho Kamana
                           </span>
                         </div>
                         <h1 className="title w-700">
                           Hey! Build Your Career <br />{" "}
                           <strong className="color-white">
-                            With Follow Histudy
+                            With Follow Sikho Kamana
                           </strong>
                         </h1>
                         <div className="button-group mt--30">
@@ -116,7 +116,7 @@ const UniversityBanner = () => {
                           </span>
                         </div>
                         <h1 className="title w-700">
-                          Histudy Starter is a community <br />{" "}
+                          Sikho Kamana Starter is a community <br />{" "}
                           <strong className="color-white">
                             for creative people.
                           </strong>

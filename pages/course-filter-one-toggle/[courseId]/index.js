@@ -37,7 +37,7 @@ const Page = () => {
 
   return (
     <>
-      <PageHead title="Course Filter One Toggle - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Course Filter One Toggle - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>

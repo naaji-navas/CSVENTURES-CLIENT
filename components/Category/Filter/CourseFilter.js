@@ -96,7 +96,7 @@ const CourseFilter = ({ filterToggle }) => {
                         <input
                           type="text"
                           id="amount"
-                          value={`$${value[0]} - $${value[1]}`}
+                          value={`$₹{value[0]} - $₹{value[1]}`}
                           readOnly
                         />
                       </div>

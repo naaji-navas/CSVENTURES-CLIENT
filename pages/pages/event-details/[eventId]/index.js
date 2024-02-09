@@ -16,6 +16,7 @@ import FooterOne from "@/components/Footer/Footer-One";
 
 import EventData from "../../../../data/events.json";
 import BackToTop from "@/pages/backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const SingleEvent = () => {
   const router = useRouter();
@@ -34,7 +35,7 @@ const SingleEvent = () => {
 
   return (
     <>
-      <PageHead title="Event Details - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Event Details - Online Courses Sikho Kamana" />
       <Provider store={Store}>
         <Context>
           <MobileMenu />
@@ -57,7 +58,7 @@ const SingleEvent = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

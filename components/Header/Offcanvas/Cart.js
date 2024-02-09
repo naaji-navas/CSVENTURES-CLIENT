@@ -87,7 +87,7 @@ const Cart = () => {
 
                         <span className="quantity">
                           {data.amount} *
-                          <span className="price">${data.product.price}</span>
+                          <span className="price">₹{data.product.price}</span>
                         </span>
                       </div>
                       <div className="close-btn">
@@ -116,7 +116,7 @@ const Cart = () => {
                 <div className="view-cart-btn">
                   <Link
                     className="rbt-btn btn-border icon-hover w-100 text-center"
-                    href="/"
+                    href="/cart"
                   >
                     <span className="btn-text">View Cart</span>
                     <span className="btn-icon">
@@ -127,8 +127,7 @@ const Cart = () => {
                 <div className="checkout-btn mt--20">
                   <Link
                     className="rbt-btn btn-gradient icon-hover w-100 text-center"
-                    // href="/checko
-                    href="/ "
+                    href="/checkout"
                   >
                     <span className="btn-text">Checkout</span>
                     <span className="btn-icon">

@@ -10,11 +10,12 @@ import BreadCrumb from "@/components/Common/BreadCrumb";
 import Checkout from "@/components/Checkout/Checkout";
 import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const CheckoutPage = () => {
   return (
     <>
-      <PageHead title="Checkout - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Checkout - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -26,7 +27,7 @@ const CheckoutPage = () => {
           </div>
 
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

@@ -20,7 +20,7 @@ import FooterThree from "@/components/Footer/Footer-Three";
 const CardPage = () => {
   return (
     <>
-      <PageHead title="Card - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Card - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>

@@ -10,22 +10,23 @@ import FooterOne from "@/components/Footer/Footer-One";
 import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const Page = () => {
   return (
     <>
-      <PageHead title="Button - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Button - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
           <MobileMenu />
           <Cart />
-          <BreadCrumb title="Welcome to Histudy Button" text="Button" />
+          <BreadCrumb title="Welcome to Sikho Kamana Button" text="Button" />
 
           <Button />
 
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

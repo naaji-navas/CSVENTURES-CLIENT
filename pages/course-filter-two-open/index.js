@@ -15,6 +15,7 @@ import FooterOne from "@/components/Footer/Footer-One";
 import BackToTop from "../backToTop";
 
 import CourseDetails from "../../data/course-details/courseData.json";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const CourseFilteTwoOpen = () => {
   const [courses, setCourse] = useState([]);
@@ -42,7 +43,7 @@ const CourseFilteTwoOpen = () => {
 
   return (
     <>
-      <PageHead title="Course Filter Two Open - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Course Filter Two Open - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -75,7 +76,7 @@ const CourseFilteTwoOpen = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

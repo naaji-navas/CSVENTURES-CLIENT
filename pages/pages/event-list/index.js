@@ -13,11 +13,12 @@ import EventList from "@/components/Events/Events";
 import BackToTop from "@/pages/backToTop";
 
 import EventData from "../../../data/events.json";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const EventListPage = () => {
   return (
     <>
-      <PageHead title="Event List - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Event List - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -39,7 +40,7 @@ const EventListPage = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

@@ -20,7 +20,7 @@ import FooterThree from "@/components/Footer/Footer-Three";
 const AccordionPage = () => {
   return (
     <>
-      <PageHead title="Accordion - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Accordion - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>

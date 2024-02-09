@@ -13,11 +13,12 @@ import PageHead from "@/pages/Head";
 import BackToTop from "@/pages/backToTop";
 import Store from "@/redux/store";
 import { Provider } from "react-redux";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const page = () => {
   return (
     <>
-      <PageHead title="Newsletter - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Newsletter - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -50,7 +51,7 @@ const page = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

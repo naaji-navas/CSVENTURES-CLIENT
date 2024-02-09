@@ -14,7 +14,7 @@ import FooterThree from "@/components/Footer/Footer-Three";
 const Home = () => {
   return (
     <>
-      <PageHead title="Kindergarten - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Kindergarten - Online Courses Sikho Kamana" />
       <Provider store={Store}>
         <Context>
           <MobileMenu />

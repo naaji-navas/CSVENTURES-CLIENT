@@ -21,11 +21,12 @@ import TeamEight from "@/components/Team/TeamEight";
 import TeamNine from "@/components/Team/TeamNine";
 import TeamTen from "@/components/Team/TeamTen";
 import BackToTop from "@/pages/backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const InstructorPage = () => {
   return (
     <>
-      <PageHead title="Instructor - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Instructor - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -73,7 +74,7 @@ const InstructorPage = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

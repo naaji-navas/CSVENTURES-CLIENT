@@ -10,11 +10,12 @@ import Cart from "@/components/Header/Offcanvas/Cart";
 import UniversityClassic from "@/components/13-university-classic/13-University-Classic";
 import HeaderStyleFour from "@/components/Header/HeaderStyle-Four";
 import Separator from "@/components/Common/Separator";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const UniversityPage = () => {
   return (
     <>
-      <PageHead title="University Classic - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="University Classic - Online Courses Sikho Kamana" />
       <Provider store={Store}>
         <Context>
           <MobileMenu />
@@ -24,7 +25,7 @@ const UniversityPage = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

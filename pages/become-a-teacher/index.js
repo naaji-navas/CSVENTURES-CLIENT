@@ -17,7 +17,7 @@ import FooterThree from "@/components/Footer/Footer-Three";
 const TeacherPage = () => {
   return (
     <>
-      <PageHead title="Become a Teacher - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Become a Teacher - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -36,7 +36,7 @@ const TeacherPage = () => {
 
           <BackToTop />
           <Separator />
-          <FooterThree />
+          <FooterThree  />
         </Context>
       </Provider>
     </>

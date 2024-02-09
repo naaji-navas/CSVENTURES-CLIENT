@@ -81,8 +81,8 @@ const UserCourses = ({ relatedCourse }) => {
               </div>
               <div className="rbt-card-bottom">
                 <div className="rbt-price">
-                  <span className="current-price">${data.price}</span>
-                  <span className="off-price">${data.offPrice}</span>
+                  <span className="current-price">₹{data.price}</span>
+                  <span className="off-price">₹{data.offPrice}</span>
                 </div>
                 <Link
                   className="rbt-btn-link"

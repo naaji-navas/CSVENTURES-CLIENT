@@ -13,11 +13,12 @@ import ProgressbarFour from "@/components/Progressbars/Progressbar-Four";
 import ProgressbarThree from "@/components/Progressbars/Progressbar-Three";
 import ProgressbarTwo from "@/components/Progressbars/Progressbar-Two";
 import BackToTop from "@/pages/backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const ProgressbarPage = () => {
   return (
     <>
-      <PageHead title="Progressbar - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Progressbar - Online Courses Sikho Kamana" />
       <Provider store={Store}>
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
@@ -42,7 +43,7 @@ const ProgressbarPage = () => {
           </div>
 
           <BackToTop />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

@@ -81,8 +81,8 @@ const CardThree = () => {
                 </div>
                 <div className="rbt-card-bottom">
                   <div className="rbt-price">
-                    <span className="current-price">${data.price}</span>
-                    <span className="off-price">${data.offPrice}</span>
+                    <span className="current-price">₹{data.price}</span>
+                    <span className="off-price">₹{data.offPrice}</span>
                   </div>
                   {data.button ? (
                     <Link className="rbt-btn-link left-icon" href={data.link}>

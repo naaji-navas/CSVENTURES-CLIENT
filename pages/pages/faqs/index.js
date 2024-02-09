@@ -11,11 +11,12 @@ import FooterOne from "@/components/Footer/Footer-One";
 import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const FaqsPage = () => {
   return (
     <>
-      <PageHead title="Faqs - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Faqs - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -30,7 +31,7 @@ const FaqsPage = () => {
           <ContactForm gap="rbt-section-gap" />
 
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

@@ -12,11 +12,12 @@ import Split from "@/components/Split/Split";
 import SplitTwo from "@/components/Split/Split-Two";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import BackToTop from "@/pages/backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const page = () => {
   return (
     <>
-      <PageHead title="Split - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Split - Online Courses Sikho Kamana" />
       <Provider store={Store}>
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
@@ -49,7 +50,7 @@ const page = () => {
           <BackToTop />
           <MobileMenu />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

@@ -11,11 +11,12 @@ import Cart from "@/components/Header/Offcanvas/Cart";
 import BreadCrumb from "@/components/Common/BreadCrumb";
 import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const HeaderPage = () => {
   return (
     <>
-      <PageHead title="Header - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Header - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -31,7 +32,7 @@ const HeaderPage = () => {
           </main>
 
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

@@ -16,11 +16,12 @@ import CounterFour from "@/components/Counters/Counter-Four";
 import CounterFive from "@/components/Counters/Counter-Five";
 import CounterSix from "@/components/Counters/Counter-Six";
 import BackToTop from "@/pages/backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const page = () => {
   return (
     <>
-      <PageHead title="Counter - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Counter - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -62,7 +63,7 @@ const page = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>
