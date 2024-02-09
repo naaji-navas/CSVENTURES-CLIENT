@@ -36,7 +36,7 @@ const TeacherPage = () => {
 
           <BackToTop />
           <Separator />
-          <FooterThree />
+          <FooterThree  />
         </Context>
       </Provider>
     </>
