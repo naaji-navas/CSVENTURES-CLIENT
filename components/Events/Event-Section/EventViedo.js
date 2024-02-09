@@ -160,7 +160,7 @@ const EventViedo = ({ getEventData }) => {
               <p className="rbt-badge-2 mt--10 justify-content-center w-100">
                 <i className="feather-phone mr--5"></i> Call Us:{" "}
                 <Link href="#">
-                  <strong>+444 555 666 777</strong>
+                  <strong>8657933489</strong>
                 </Link>
               </p>
             </div>

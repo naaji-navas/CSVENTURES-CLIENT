@@ -8,7 +8,7 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import EventHead from "@/components/Events/EventHead";
 import Separator from "@/components/Common/Separator";
-import FooterOne from "@/components/Footer/Footer-One";
+import FooterThree from "@/components/Footer/Footer-One";
 import EventGrid from "@/components/Events/Events";
 import BackToTop from "@/pages/backToTop";
 
@@ -17,7 +17,7 @@ import EventData from "../../../data/events.json";
 const EventGridPage = () => {
   return (
     <>
-      <PageHead title="Event Grid - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Event Grid - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -38,7 +38,7 @@ const EventGridPage = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

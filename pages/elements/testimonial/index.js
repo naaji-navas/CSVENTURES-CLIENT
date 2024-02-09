@@ -19,11 +19,12 @@ import TestimonialSeven from "@/components/Testimonials/Testimonial-Seven";
 import CallToActionFour from "@/components/Call-To-Action/CallToAction-Four";
 import BreadCrumb from "@/components/Common/BreadCrumb";
 import BackToTop from "@/pages/backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const TestimonialPage = () => {
   return (
     <>
-      <PageHead title="Testimonial - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Testimonial - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -44,7 +45,7 @@ const TestimonialPage = () => {
                         EDUCATION FOR EVERYONE
                       </span>
                       <h2 className="title">
-                        People like histudy education. <br /> No joking - here’s
+                        People like Sikho Kamana education. <br /> No joking - here’s
                         the proof!
                       </h2>
                     </div>
@@ -71,7 +72,7 @@ const TestimonialPage = () => {
                     <h2 className="title">What Our Learners Say</h2>
                     <p className="description mt--20">
                       Learning communicate to global world and build a bright
-                      future with our histudy.
+                      future with our Sikho Kamana.
                     </p>
                     <div className="veiw-more-btn mt--20">
                       <Link
@@ -97,7 +98,7 @@ const TestimonialPage = () => {
                         EDUCATION FOR EVERYONE
                       </span>
                       <h2 className="title">
-                        People like histudy education. <br /> No joking - here’s
+                        People like Sikho Kamana education. <br /> No joking - here’s
                         the proof!
                       </h2>
                     </div>
@@ -115,7 +116,7 @@ const TestimonialPage = () => {
           <MobileMenu />
 
           <BackToTop />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

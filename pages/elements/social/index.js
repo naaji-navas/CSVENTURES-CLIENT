@@ -10,11 +10,12 @@ import Cart from "@/components/Header/Offcanvas/Cart";
 import Social from "@/components/Socials";
 import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const SocialPage = () => {
   return (
     <>
-      <PageHead title="Social - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Social - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -49,7 +50,7 @@ const SocialPage = () => {
           />
 
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

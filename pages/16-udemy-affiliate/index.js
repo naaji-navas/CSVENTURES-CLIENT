@@ -10,11 +10,12 @@ import FooterOne from "@/components/Footer/Footer-One";
 import BackToTop from "../backToTop";
 import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import UdemyAffiliate from "@/components/16-udemy-affiliate/UdemyAffiliate";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const UdemyAffiliateLayout = () => {
   return (
     <>
-      <PageHead title="Udemy Affiliate - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Udemy Affiliate - Online Courses Sikho Kamana" />
       <Provider store={Store}>
         <Context>
           <MobileMenu />
@@ -24,7 +25,7 @@ const UdemyAffiliateLayout = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne bgColor="bg-color-darker" />
+          <FooterThree bgColor="bg-color-darker" />
         </Context>
       </Provider>
     </>

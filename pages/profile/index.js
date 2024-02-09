@@ -11,6 +11,7 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import PageHead from "@/pages/Head";
 import BackToTop from "@/pages/backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const ProfileLayout = () => {
   const router = useRouter();
@@ -24,7 +25,7 @@ const ProfileLayout = () => {
 
   return (
     <>
-      <PageHead title="Profile - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Profile - Online Courses Sikho Kamana" />
       <Provider store={Store}>
         <Context>
           <MobileMenu />
@@ -33,7 +34,7 @@ const ProfileLayout = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

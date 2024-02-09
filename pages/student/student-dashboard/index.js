@@ -12,11 +12,12 @@ import Cart from "@/components/Header/Offcanvas/Cart";
 import Dashboard from "@/components/Student/Dashboard";
 import StudentDashboardHeader from "@/components/Student/StudentDashboardHeader";
 import StudentDashboardSidebar from "@/components/Student/StudentDashboardSidebar";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const StudentDashboard = () => {
   return (
     <>
-      <PageHead title="Student Dashboard - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Student Dashboard - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -49,7 +50,7 @@ const StudentDashboard = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

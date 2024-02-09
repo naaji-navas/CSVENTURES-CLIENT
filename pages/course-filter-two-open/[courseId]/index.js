@@ -36,7 +36,7 @@ const Page = () => {
   }, [router.isReady, router.query.courseId]);
   return (
     <>
-      <PageHead title="Course Filter Two Open - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Course Filter Two Open - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>

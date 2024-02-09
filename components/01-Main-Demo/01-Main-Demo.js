@@ -50,7 +50,7 @@ const MainDemo = () => {
                     Top Popular Course
                   </span>
                   <h2 className="title">
-                    Histudy Course student <br /> can join with us.
+                    Sikho Kamana Course student <br /> can join with us.
                   </h2>
                 </div>
               </div>
@@ -114,7 +114,7 @@ const MainDemo = () => {
                       EDUCATION FOR EVERYONE
                     </span>
                     <h2 className="title">
-                      People like histudy education. <br /> No joking - here’s
+                      People like Sikho Kamana education. <br /> No joking - here’s
                       the proof!
                     </h2>
                   </div>

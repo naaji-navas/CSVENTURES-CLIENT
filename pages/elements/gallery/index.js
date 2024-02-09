@@ -10,11 +10,12 @@ import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
 import Gallery from "@/components/Gallery/Gallery";
 import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const GalleryPage = () => {
   return (
     <>
-      <PageHead title="Gallery - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Gallery - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -26,7 +27,7 @@ const GalleryPage = () => {
           <Gallery />
 
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

@@ -16,7 +16,7 @@ import FooterThree from "@/components/Footer/Footer-Three";
 const ClassicLmsLayout = () => {
   return (
     <>
-      <PageHead title="Home Classic Lms - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Home Classic Lms - Online Courses Sikho Kamana" />
       <Provider store={Store}>
         <Context>
           <MobileMenu />

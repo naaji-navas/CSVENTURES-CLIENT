@@ -15,6 +15,7 @@ import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
 
 import CourseDetails from "../../data/course-details/courseData.json";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const CourseFilteTwoToggle = () => {
   const [courses, setCourse] = useState([]);
@@ -42,7 +43,7 @@ const CourseFilteTwoToggle = () => {
 
   return (
     <>
-      <PageHead title="Course Filter Two Toggle - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Course Filter Two Toggle - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -75,7 +76,7 @@ const CourseFilteTwoToggle = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

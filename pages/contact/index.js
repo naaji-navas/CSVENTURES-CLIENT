@@ -9,11 +9,12 @@ import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import FooterOne from "@/components/Footer/Footer-One";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const ContactPage = () => {
   return (
     <>
-      <PageHead title="Contact - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Contact - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -29,7 +30,7 @@ const ContactPage = () => {
                       Contact Us
                     </span>
                     <h2 className="title">
-                      Histudy Course Contact <br /> can join with us.
+                      Sikho Kamana Course Contact <br /> can join with us.
                     </h2>
                   </div>
                 </div>
@@ -49,7 +50,7 @@ const ContactPage = () => {
             ></iframe>
           </div>
 
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

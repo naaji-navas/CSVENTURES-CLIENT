@@ -159,7 +159,7 @@ const ClassicLms = () => {
               <div className="section-title text-center">
                 <span className="subtitle bg-secondary-opacity">Instagram</span>
                 <h2 className="title">
-                  Follow Histudy On{" "}
+                  Follow Sikho Kamana On{" "}
                   <span className="color-primary">Instagram</span>
                 </h2>
               </div>

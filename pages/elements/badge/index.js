@@ -11,17 +11,18 @@ import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import BackToTop from "@/pages/backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const BadgePage = () => {
   return (
     <>
-      <PageHead title="Badge - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Badge - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
           <MobileMenu />
           <Cart />
-          <BreadCrumb title="Welcome to Histudy Badge" text="Badge" />
+          <BreadCrumb title="Welcome to Sikho Kamana Badge" text="Badge" />
 
           <div className="rbt-badge-area rbt-section-gap bg-color-white position-relative">
             <Badge />
@@ -29,7 +30,7 @@ const BadgePage = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

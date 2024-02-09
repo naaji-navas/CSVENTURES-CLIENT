@@ -14,6 +14,7 @@ import Cart from "@/components/Header/Offcanvas/Cart";
 import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
 import PageHead from "@/pages/Head";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const SingleProfile = () => {
   const router = useRouter();
@@ -32,7 +33,7 @@ const SingleProfile = () => {
 
   return (
     <>
-      <PageHead title="Profile - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Profile - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -68,7 +69,7 @@ const SingleProfile = () => {
           </div>
 
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

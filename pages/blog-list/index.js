@@ -11,12 +11,13 @@ import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
 import Banner from "@/components/Common/Banner";
 import BackToTop from "../backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const BlogListLayout = () => {
   let getAllBlogs = JSON.parse(JSON.stringify(BlogData.blogList));
   return (
     <>
-      <PageHead title="Blog List - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Blog List - Online Courses Sikho Kamana" />
       <Provider store={Store}>
         <Context>
           <MobileMenu />
@@ -36,7 +37,7 @@ const BlogListLayout = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

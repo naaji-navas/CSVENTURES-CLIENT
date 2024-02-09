@@ -10,6 +10,7 @@ import { Provider } from "react-redux";
 import Store from "@/redux/store";
 import FooterThree from "@/components/Footer/Footer-Three";
 import Marketplace from "@/components/12-Marketplace/12-Marketplace";
+import FooterOne from "@/components/Footer/Footer-One";
 
 const Home = () => {
   return (
@@ -24,8 +25,7 @@ const Home = () => {
           <Cart />
 
           <Separator />
-          <FooterThree />
-        </Context>
+<FooterThree />        </Context>
       </Provider>
     </>
   );

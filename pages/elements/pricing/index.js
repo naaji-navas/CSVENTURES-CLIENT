@@ -10,11 +10,12 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import BreadCrumb from "@/components/Common/BreadCrumb";
 import Pricing from "@/components/Pricing/Pricing";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const PricingPage = () => {
   return (
     <>
-      <PageHead title="Pricing - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Pricing - Online Courses Sikho Kamana" />
       <Provider store={Store}>
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
@@ -27,7 +28,7 @@ const PricingPage = () => {
           </div>
 
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

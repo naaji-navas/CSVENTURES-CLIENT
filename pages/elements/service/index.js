@@ -22,11 +22,12 @@ import FooterOne from "@/components/Footer/Footer-One";
 import BreadCrumb from "@/components/Common/BreadCrumb";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import BackToTop from "@/pages/backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const ServicePage = () => {
   return (
     <>
-      <PageHead title="Service Box - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Service Box - Online Courses Sikho Kamana" />
       <Provider store={Store}>
         <Context>
           <HeaderStyleTen headerSticky="rbt-sticky" headerType="" />
@@ -73,7 +74,7 @@ const ServicePage = () => {
           <BackToTop />
           <MobileMenu />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

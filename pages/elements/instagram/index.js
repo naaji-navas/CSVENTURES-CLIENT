@@ -10,11 +10,12 @@ import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Instagram from "@/components/Instagram/Instagram";
 import Cart from "@/components/Header/Offcanvas/Cart";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const InstagramPage = () => {
   return (
     <>
-      <PageHead title="Instagram - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Instagram - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -26,7 +27,7 @@ const InstagramPage = () => {
           </div>
           <MobileMenu />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

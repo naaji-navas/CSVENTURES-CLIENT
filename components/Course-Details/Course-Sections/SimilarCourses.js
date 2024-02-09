@@ -99,8 +99,8 @@ const SimilarCourses = ({ checkMatchCourses }) => {
                     </div>
                     <div className="rbt-card-bottom">
                       <div className="rbt-price">
-                        <span className="current-price">${item.price}</span>
-                        <span className="off-price">${item.offPrice}</span>
+                        <span className="current-price">₹{item.price}</span>
+                        <span className="off-price">₹{item.offPrice}</span>
                       </div>
                       <Link className="rbt-btn-link" href="/course-details">
                         Learn More<i className="feather-arrow-right"></i>

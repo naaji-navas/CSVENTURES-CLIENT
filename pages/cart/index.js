@@ -10,11 +10,12 @@ import BreadCrumb from "@/components/Common/BreadCrumb";
 import CartPage from "@/components/Cart/CartPage";
 import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const CartPageLayout = () => {
   return (
     <>
-      <PageHead title="Cart - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Cart - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -26,7 +27,7 @@ const CartPageLayout = () => {
           </div>
 
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

@@ -14,6 +14,7 @@ import FooterOne from "@/components/Footer/Footer-One";
 import CategoryHead from "@/components/Category/CategoryHead";
 import CourseFilterOneToggle from "@/components/Category/Filter/CourseFilterOneToggle";
 import Pagination from "@/components/Common/Pagination";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const CourseFilerOneOpenLayout = () => {
   const [courses, setCourse] = useState([]);
@@ -41,7 +42,7 @@ const CourseFilerOneOpenLayout = () => {
 
   return (
     <>
-      <PageHead title="Course Filter One Open - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Course Filter One Open - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -73,7 +74,7 @@ const CourseFilerOneOpenLayout = () => {
           </div>
 
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

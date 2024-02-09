@@ -18,7 +18,7 @@ import FooterThree from "@/components/Footer/Footer-Three";
 const SearchPage = () => {
   return (
     <>
-      <PageHead title="Search - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Search - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>

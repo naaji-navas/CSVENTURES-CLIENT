@@ -18,11 +18,12 @@ import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import BackToTop from "@/pages/backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const AboutPage = () => {
   return (
     <>
-      <PageHead title="About - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="About - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -81,7 +82,7 @@ const AboutPage = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

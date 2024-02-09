@@ -191,8 +191,8 @@ const CourseWidget = ({
           {!isProgress ? (
             <div className="rbt-card-bottom">
               <div className="rbt-price">
-                <span className="current-price">${data.offerPrice}</span>
-                <span className="off-price">${data.coursePrice}</span>
+                <span className="current-price">₹{data.offerPrice}</span>
+                <span className="off-price">₹{data.coursePrice}</span>
               </div>
 
               {isEdit ? (

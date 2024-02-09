@@ -11,11 +11,12 @@ import Cart from "@/components/Header/Offcanvas/Cart";
 import StyleGuide from "@/components/StyleGuide/StyleGuide";
 import PageHead from "@/pages/Head";
 import BackToTop from "@/pages/backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const StyleGuidePage = () => {
   return (
     <>
-      <PageHead title="Style Guide - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Style Guide - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -30,7 +31,7 @@ const StyleGuidePage = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

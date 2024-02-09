@@ -11,11 +11,12 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import ListStyle from "@/components/ListStyle/List-Style";
 import BackToTop from "@/pages/backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const ListStylePage = () => {
   return (
     <>
-      <PageHead title="List Style - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="List Style - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -30,7 +31,7 @@ const ListStylePage = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

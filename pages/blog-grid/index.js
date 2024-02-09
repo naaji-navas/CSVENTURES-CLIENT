@@ -11,12 +11,13 @@ import BlogGrid from "@/components/Blogs/BlogGrid";
 import BackToTop from "../backToTop";
 import Separator from "@/components/Common/Separator";
 import FooterOne from "@/components/Footer/Footer-One";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const BlogGridLayout = () => {
   let getAllBlogs = JSON.parse(JSON.stringify(BlogData.blogGrid));
   return (
     <>
-      <PageHead title="Blog Grid - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Blog Grid - Online Courses Sikho Kamana" />
       <Provider store={Store}>
         <Context>
           <MobileMenu />
@@ -32,7 +33,7 @@ const BlogGridLayout = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

@@ -16,11 +16,12 @@ import HeaderStyleTen from "@/components/Header/HeaderStyle-Ten";
 import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import BackToTop from "@/pages/backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const CallToActionPage = () => {
   return (
     <>
-      <PageHead title="Call To Action - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Call To Action - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -52,7 +53,7 @@ const CallToActionPage = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

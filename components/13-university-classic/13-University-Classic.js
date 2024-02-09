@@ -218,7 +218,7 @@ const UniversityClassic = () => {
             <div className="col-lg-6 col-md-12 col-12">
               <div className="load-more-btn text-start text-lg-end">
                 <Link className="rbt-btn-link" href="#">
-                  Browse Histudy Program<i className="feather-arrow-right"></i>
+                  Browse Sikho Kamana Program<i className="feather-arrow-right"></i>
                 </Link>
               </div>
             </div>
@@ -291,7 +291,7 @@ const UniversityClassic = () => {
             <div className="col-lg-6 col-md-12 col-12">
               <div className="load-more-btn text-start text-lg-end">
                 <Link className="rbt-btn-link" href="#">
-                  Browse Histudy Courses<i className="feather-arrow-right"></i>
+                  Browse Sikho Kamana Courses<i className="feather-arrow-right"></i>
                 </Link>
               </div>
             </div>
@@ -317,7 +317,7 @@ const UniversityClassic = () => {
             <div className="col-lg-6 col-md-12 col-12">
               <div className="load-more-btn text-start text-lg-end">
                 <Link className="rbt-btn-link" href="/blog-list">
-                  Browse Histudy Post<i className="feather-arrow-right"></i>
+                  Browse Sikho Kamana Post<i className="feather-arrow-right"></i>
                 </Link>
               </div>
             </div>
@@ -372,7 +372,7 @@ const UniversityClassic = () => {
                     EDUCATION FOR EVERYONE
                   </span>
                   <h2 className="title">
-                    People like histudy education. <br /> No joking - Parents
+                    People like Sikho Kamana education. <br /> No joking - Parents
                     Review Here!
                   </h2>
                 </div>

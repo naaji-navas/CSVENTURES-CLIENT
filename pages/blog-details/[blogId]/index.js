@@ -16,6 +16,7 @@ import BlogDetails from "@/components/Blogs/BlogDetails";
 import BlogListItems from "@/components/Blogs/Blog-Sections/BlogList-Items";
 import Instagram from "@/components/Instagram/Instagram";
 import BlogBreadCrumb from "@/components/Common/Blog-BreadCrumb";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const SingleBlog = () => {
   const router = useRouter();
@@ -38,7 +39,7 @@ const SingleBlog = () => {
 
   return (
     <>
-      <PageHead title="Blog Details - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Blog Details - Online Courses Sikho Kamana" />
       <Provider store={Store}>
         <Context>
           <MobileMenu />
@@ -74,7 +75,7 @@ const SingleBlog = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

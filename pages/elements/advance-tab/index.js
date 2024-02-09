@@ -15,11 +15,12 @@ import MobileMenu from "@/components/Header/MobileMenu";
 import Cart from "@/components/Header/Offcanvas/Cart";
 import PageHead from "@/pages/Head";
 import BackToTop from "@/pages/backToTop";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const AdvanceTabPage = () => {
   return (
     <>
-      <PageHead title="Advance Tab - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Advance Tab - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -53,7 +54,7 @@ const AdvanceTabPage = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>

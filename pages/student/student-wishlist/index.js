@@ -11,11 +11,12 @@ import PageHead from "@/pages/Head";
 import BackToTop from "@/pages/backToTop";
 import Store from "@/redux/store";
 import { Provider } from "react-redux";
+import FooterThree from "@/components/Footer/Footer-Three";
 
 const StudentWishlist = () => {
   return (
     <>
-      <PageHead title="Student Wishlist Course - Online Courses & Education NEXTJS14 Template" />
+      <PageHead title="Student Wishlist Course - Online Courses Sikho Kamana" />
 
       <Provider store={Store}>
         <Context>
@@ -48,7 +49,7 @@ const StudentWishlist = () => {
 
           <BackToTop />
           <Separator />
-          <FooterOne />
+          <FooterThree />
         </Context>
       </Provider>
     </>
